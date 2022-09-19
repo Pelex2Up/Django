@@ -23,7 +23,7 @@ conn.commit()
 cursor.execute('''SELECT * FROM tab_of_patients''')
 congr = cursor.fetchall()
 for i in congr:
-    e = 0
+    x = 0
     h = list(i)
-    m = ' '.join(str(e) for e in h)
+    m = ' '.join(str(x) for x in h)
     print(m)
